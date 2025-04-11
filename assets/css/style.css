@@ -1,0 +1,277 @@
+banner-hero {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+.hero {
+    height: 100vh;
+    background:rgb(0, 0, 0);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    color: white;
+    padding: 20px;
+}
+
+.hero h1 {
+    font-size: 3rem;
+    margin-bottom: 10px;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.hero p {
+    font-size: 1.2rem;
+    margin-bottom: 20px;
+    text-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+}
+
+.hero button {
+    padding: 15px 30px;
+    font-size: 1.2rem;
+    color: white;
+    background: #000000;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.hero button:hover {
+    background: #ff0000;
+}
+        
+        .banner-container  {
+            display: flex; /* Enables row layout */
+            justify-content: center; /* Centers the images */
+            width: 99w; /* Makes banner full width */
+            padding: 0;; /* Adjust to make the container smaller */
+            max-width: 1600px; /* Prevents it from getting too large */
+            margin: 0; /* Centers the container */
+            height: 142px; /* Adjust to your desired height */
+            overflow: hidden; /* Hides the parts of the image that exceed the height */
+            align-items: center;
+            background-color: #333;
+        }
+        .banner {
+            margin: -10; 
+            object-fit: cover;
+        }
+
+        .large {
+            margin-right: -150px;
+            width: 100%; /* Adjust as needed */
+            transform: scale(0.1);
+            margin-left: -100px;
+        }
+
+        .small {
+            width: 30%; /* Adjust to make it smaller */
+            transform: scale(0.1); /* Shrinks image to 80% of its size */
+        }
+
+        .omegabird {
+            width: 30%; /* Adjust to make it smaller */
+            transform: scale(0.8);
+        }
+        .mort {
+            width: 30%; /* Adjust to make it smaller */
+            transform: scale(0.6);
+            margin-left: -10px;
+            margin-right: 100;
+        }
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+        body {
+            font-family: Arial, sans-serif;
+        }
+        nav {
+            background-color: #333;
+            padding: 10px 0;
+            text-align: center;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            padding: 15px 20px;
+            display: inline-block;
+        }
+        nav a:hover {
+            background-color: #484242;
+        }
+        .container {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            margin-top: 20px;
+            margin-bottom: 20px;
+            
+           
+        }
+        .crocodile-image {
+            max-width: 500px;  /* Adjust this value */
+            max-height: 300px; /* Adjust this value */
+            width: auto;  /* Ensures it scales proportionally */
+            height: auto; /* Prevents distortion */
+            display: block;
+            margin: 0 auto; /* Centers the image */
+        }
+        .Tungsahuur {
+            max-width: 500px;  /* Adjust this value */
+            max-height: 300px; /* Adjust this value */
+            width: auto;  /* Ensures it scales proportionally */
+            height: auto; /* Prevents distortion */
+            display: block;
+            margin: 0 auto; /* Centers the image */
+            margin-bottom: 10px;
+        }
+        .Nikeshark {
+            max-width: 500px;  /* Adjust this value */
+            max-height: 400px; /* Adjust this value */
+            width: auto;  /* Ensures it scales proportionally */
+            height: auto; /* Prevents distortion */
+            display: block;
+            margin: auto; /* Centers the image */
+        }
+        .brrbrrpatapim {
+            max-width: 500px;  /* Adjust this value */
+            max-height: 250px; /* Adjust this value */
+            width: 100;  /* Ensures it scales proportionally */
+            height: 100; /* Prevents distortion */
+            display: block;
+            display: flex;
+            flex-wrap: wrap; /* Ensures images wrap to the next line if needed */
+            justify-content: center;
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+            gap: 10px;
+            margin-bottom: 50px;
+            margin-right: 5px;
+
+        }
+        .chimpanzinibananini {
+            max-width: 500px;  /* Adjust this value */
+            max-height: 300px; /* Adjust this value */
+            width: auto;  /* Ensures it scales proportionally */
+            height: auto; /* Prevents distortion */
+            display: block;
+            margin: 0 auto; 
+            margin-top: 10;
+        }
+        .trippitroppa {
+            max-width: 500px;  /* Adjust this value */
+            max-height: 300px; /* Adjust this value */
+            width: auto;  /* Ensures it scales proportionally */
+            height: auto; /* Prevents distortion */
+            display: block;
+            margin: 0 auto; 
+            margin-top: 100;
+        }
+        .lirililarila {
+            max-width: 500px;  /* Adjust this value */
+            max-height: 300px; /* Adjust this value */
+            width: auto;  /* Ensures it scales proportionally */
+            height: auto; /* Prevents distortion */
+            display: block;
+            margin: 0 auto; 
+            margin-top: 10;
+        }
+        .Burrbaloniloliloli {
+            max-width: 500px;  /* Adjust this value */
+            max-height: 300px; /* Adjust this value */
+            width: auto;  /* Ensures it scales proportionally */
+            height: auto; /* Prevents distortion */
+            display: block;
+            margin: 0 auto; 
+            margin-top: 10;
+        }
+        .bombombiniguizini {
+            max-width: 500px;  /* Adjust this value */
+            max-height: 300px; /* Adjust this value */
+            width: auto;  /* Ensures it scales proportionally */
+            height: auto; /* Prevents distortion */
+            display: block;
+            margin: 0 auto; 
+            margin-top: 10;
+        }
+        .frigocamello {
+            max-width: 250px;  /* Adjust this value */
+            max-height: 300px; /* Adjust this value */
+            width: auto;  /* Ensures it scales proportionally */
+            height: auto; /* Prevents distortion */
+            display: block;
+            margin: 0 auto; 
+
+        }
+        .bonecaambalabu {
+            max-width: 250px;  /* Adjust this value */
+            max-height: 300px; /* Adjust this value */
+            width: auto;  /* Ensures it scales proportionally */
+            height: auto; /* Prevents distortion */
+            display: block;
+            margin: 0 auto; 
+
+        }
+        .cappuccinoassassino {
+            max-width: 250px;  /* Adjust this value */
+            max-height: 300px; /* Adjust this value */
+            width: auto;  /* Ensures it scales proportionally */
+            height: auto; /* Prevents distortion */
+            display: block;
+            margin: 0 auto; 
+
+        }
+        .frullifrulla {
+            max-width: 250px;  /* Adjust this value */
+            max-height: 300px; /* Adjust this value */
+            width: auto;  /* Ensures it scales proportionally */
+            height: auto; /* Prevents distortion */
+            display: block;
+            margin: 0 auto; 
+
+        }
+        .lavacasaturnosaturnito {
+            max-width: 250px;  /* Adjust this value */
+            max-height: 300px; /* Adjust this value */
+            width: auto;  /* Ensures it scales proportionally */
+            height: auto; /* Prevents distortion */
+            display: block;
+            margin: 0 auto; 
+
+        }
+        .glorbofrutodillo {
+            max-width: 250px;  /* Adjust this value */
+            max-height: 300px; /* Adjust this value */
+            width: auto;  /* Ensures it scales proportionally */
+            height: auto; /* Prevents distortion */
+            display: block;
+            margin: 0 auto; 
+
+        }
+        
+        footer {
+        background-color: #333; /* Dark background */
+        color: white; /* White text */
+        text-align: center; /* Centers the text */
+        padding: 15px 0; /* Adds space inside the footer */
+        position: relative; /* Ensures it stays at the bottom */
+        width: 100%; 
+
+    }
+        .image-placeholder {
+            width: 200px;  /* Fixed size for the placeholders */
+            height: 150px;  /* Fixed height for the placeholders */
+            background-color: #ccc;  /* Light gray color for the placeholder */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 16px;
+            color: #555;
+        }
+        
